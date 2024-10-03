@@ -11,17 +11,6 @@ html {
 	overflow: hidden;
 }
 
-/* #grid::before {
-	@apply fixed w-full h-full;
-	content: '';
-	background: linear-gradient(
-		0deg,
-		theme(colors.stone.100),
-		theme(colors.stone.50),
-		theme(colors.stone.100)
-	);
-} */
-
 main {
 	background-image: linear-gradient(
 		30deg,
