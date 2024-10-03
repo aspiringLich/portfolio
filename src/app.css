@@ -34,3 +34,15 @@ main::before {
 	/*prettier-ignore*/
 	background-image: linear-gradient(0deg, transparent 9%, var(--color-grid-2) 10%, var(--color-grid-2) 12%, transparent 13%, transparent 29%, var(--color-grid-1) 30%, var(--color-grid-1) 31%, transparent 32%, transparent 49%, var(--color-grid-1) 50%, var(--color-grid-1) 51%, transparent 52%, transparent 69%, var(--color-grid-1) 70%, var(--color-grid-1) 71%, transparent 72%, transparent 89%, var(--color-grid-1) 90%, var(--color-grid-1) 91%, transparent 92%, transparent), linear-gradient(90deg, transparent 9%, var(--color-grid-2) 10%, var(--color-grid-2) 12%, transparent 13%, transparent 29%, var(--color-grid-1) 30%, var(--color-grid-1) 31%, transparent 32%, transparent 49%, var(--color-grid-1) 50%, var(--color-grid-1) 51%, transparent 52%, transparent 69%, var(--color-grid-1) 70%, var(--color-grid-1) 71%, transparent 72%, transparent 89%, var(--color-grid-1) 90%, var(--color-grid-1) 91%, transparent 92%, transparent);
 }
+
+@layer base {
+	.pseudo-window {
+		border: var(--window-border) var(--window-border-color);
+		box-shadow:
+			2px 2px 10px 0px rgb(0 0 0 / 0.3),
+			inset 0 0 0 1px #fffa;
+		position: relative;
+		z-index: 0;
+		border-radius: var(--window-border-radius);
+	}
+}
