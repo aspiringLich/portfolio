@@ -1,18 +1,19 @@
 <script lang="ts">
-	import folio_h from '$lib/folio-h.png';
 	import Window from './Window.svelte';
-
-	import biohazard from '$lib/post-its/biohazard.png';
-	import dish from '$lib/post-its/dish.png';
-	import greek from '$lib/post-its/greek.png';
-	import rocket from '$lib/post-its/rocket.png';
+	
+	import folio_h from '$lib/folio-h.png?enhanced';
+	
+	import biohazard from '$lib/post-its/biohazard.png?enhanced';
+	import dish from '$lib/post-its/dish.png?enhanced';
+	import greek from '$lib/post-its/greek.png?enhanced';
+	import rocket from '$lib/post-its/rocket.png?enhanced';
 </script>
 
-{#snippet post_it(url: string, classes: string, id: string)}
+{#snippet post_it(url: any, classes: string, id: string)}
 	<span class="fixed">
-		<div class="window absolute {classes}" id="post-it">
+		<div class="pseudo-window absolute {classes}" id="post-it">
 			<div class="w-[13rem] h-[13rem]">
-				<img class="w-full h-full" src={url} alt="post-it" {id} />
+				<enhanced:img class="w-full h-full" src={url} alt="post-it" {id} />
 			</div>
 		</div>
 	</span>
@@ -20,12 +21,10 @@
 
 <div>
 	{@render post_it(rocket, 'bottom-[15rem] left-[6rem]', 'rocket')}
-	<img
+	<enhanced:img
 		src={folio_h}
 		class="max-w-[32rem] drop-shadow-lg"
 		alt="Header"
-		width={956}
-		height={454}
 	/>
 	{@render post_it(biohazard, 'bottom-[27rem] left-[17rem]', 'biohazard')}
 	<span class="fixed">
@@ -60,10 +59,7 @@
 		animation-delay: var(--d);
 		animation-direction: var(--dir);
 		transform: translate3d(0);
-	}
-
-	#post-it::before {
-		background: none;
+		
 	}
 
 	span.fixed :has(#rocket) {

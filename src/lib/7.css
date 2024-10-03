@@ -1461,7 +1461,8 @@ a:hover {
 		radial-gradient(circle at 160% 50%, #000 5% 10%, #0000 50%),
 		linear-gradient(#d1a894, #b67562 25% 50%, #7d0d01 50%);
 }
-.window {
+.window,
+.pseudo-window {
 	border: var(--window-border) var(--window-border-color);
 	box-shadow:
 		2px 2px 10px 0px rgb(0 0 0 / 0.3),
@@ -1471,6 +1472,7 @@ a:hover {
 	z-index: 0;
 }
 .window,
+.pseudo-window,
 .window:before {
 	border-radius: var(--window-border-radius);
 }
