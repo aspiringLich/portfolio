@@ -15,12 +15,12 @@
 	<meta name="" content="" />
 </svelte:head>
 
-<main class="w-full h-screen flex flex-col lg:flex-row">
-	<section class="z-10 max-lg:h-[44rem] lg:w-[32rem] flex items-center justify-center relative">
+<main class="w-full h-screen flex flex-col lg:flex-row max-lg:overflow-scroll">
+	<section class="z-10 max-lg:h-[50rem] lg:w-[32rem] flex items-center justify-center relative">
 		<Header />
 	</section>
 	<section class="flex-1 z-10 flex flex-col items-center px-2 pb-[50vh] lg:overflow-scroll">
-		<span class="mt-[calc(50vh-19rem)]">
+		<span class="lg:mt-[calc(50vh-19rem)]">
 			<div class="pseudo-window w-80 relative left-4" id="item">
 				<div class="prose-sm p-2">
 					<h4>Notes</h4>
