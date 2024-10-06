@@ -1,4 +1,4 @@
-<!-- https://github.com/ambarvm/svelte-magnifier/blob/main/src/lib/Magnifier.svelte -->
+<!-- Modified from https://github.com/ambarvm/svelte-magnifier/blob/main/src/lib/Magnifier.svelte -->
 <script lang="ts">
 	let img: HTMLImageElement,
 		imgBounds: DOMRect,
@@ -9,6 +9,8 @@
 		relY = 0;
 	export let src: string,
 		alt: string,
+		width: number,
+		height: number,
 		className = '',
 		zoomImgSrc = '',
 		zoomFactor = 1.5,
@@ -60,13 +62,12 @@
 	};
 </script>
 
-<div
-	class="magnifier {className}"
-	class:no-overflow={mgShowOverflow}
->
+<div class="magnifier {className}" class:no-overflow={mgShowOverflow}>
 	<img
 		{src}
 		{alt}
+		{width}
+		{height}
 		class="magnifier-image"
 		bind:this={img}
 		on:load={calcImgBounds}
@@ -74,6 +75,7 @@
 		on:touchstart|preventDefault={calcImgBounds}
 		on:mousemove={onMouseMove}
 		on:touchmove={onTouchMove}
+		on:scroll={calcImgBounds}
 		on:mouseout={() => (showZoom = false)}
 		on:touchend={() => (showZoom = false)}
 		on:blur={() => {}}
@@ -93,7 +95,7 @@
 				100}% + {mgHeight / 2}px - {relY * mgWidth}px);
 				background-size: {zoomFactor * imgBounds.width}% {zoomFactor * imgBounds.height}%;
 				borderWidth: {mgBorderWidth}px;"
-		/>
+		></div>
 	{/if}
 </div>
 
@@ -106,8 +108,6 @@
 
 	.magnifier-image {
 		cursor: none;
-		width: 100%;
-		height: 100%;
 	}
 
 	.magnifying-glass {
