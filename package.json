@@ -34,5 +34,8 @@
 		"typescript-eslint": "^8.0.0",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-carousel": "github:vadimkorr/svelte-carousel#pull/142/head"
+	}
 }

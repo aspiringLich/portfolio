@@ -1,6 +1,4 @@
 <script lang="ts">
-	import Window from './Window.svelte';
-
 	import folio_h from '$lib/folio-h.png?enhanced';
 
 	import biohazard from '$lib/post-its/biohazard.png?enhanced';
@@ -13,7 +11,7 @@
 
 {#snippet post_it(url: any, classes: string, id: string)}
 	<span class="relative">
-		<div class="pseudo-window absolute {classes} w-[11rem]" id="post-it">
+		<div class="pseudo-window rounded-lg absolute {classes} w-[11rem]" id="post-it">
 			<enhanced:img src={url} alt="post-it-{id}" {id} />
 		</div>
 	</span>
@@ -24,8 +22,9 @@
 	{@render post_it(biohazard, 'bottom-[14rem] left-[19rem]', 'biohazard')}
 	{@render post_it(rocket, 'bottom-[18rem] left-[10rem]', 'rocket')}
 	{@render post_it(dragon, 'bottom-[14rem] left-[2rem]', 'dragon')}
-	{@render post_it(dish, 'top-[-1rem] left-[6rem]', 'dish')}
-	{@render post_it(greek, 'top-[-2rem] left-[17rem]', 'greek')}
+	{@render post_it(langs, 'top-[-1rem] left-[3rem]', 'langs')}
+	{@render post_it(dish, 'top-[4rem] left-[12rem]', 'dish')}
+	{@render post_it(greek, 'top-[-2rem] left-[19rem]', 'greek')}
 </div>
 
 <style lang="postcss">
@@ -50,10 +49,10 @@
 	}
 	
 	span.relative :has(#dish) {
-		--hue: 50;
+		--hue: 25;
 		--d: 0s;
 		--l: 12s;
-		--r: -4deg;
+		--r: 4deg;
 	}
 	
 	span.relative :has(#dragon) {
@@ -63,6 +62,20 @@
 		--r: -10deg;
 	}
 
+	span.relative :has(#greek) {
+		--hue: 340;
+		--d: -9s;
+		--l: 13s;
+		--r: =2deg;
+	}
+	
+	span.relative :has(#langs) {
+		--hue: 50;
+		--d: -2s;
+		--l: 12s;
+		--r: 1deg;
+	}
+	
 	span.relative :has(#rocket) {
 		--hue: 180;
 		--d: -5s;
@@ -70,12 +83,6 @@
 		--r: 0deg;
 	}
 
-	span.relative :has(#greek) {
-		--hue: 340;
-		--d: -9s;
-		--l: 13s;
-		--r: 2deg;
-	}
 
 	@keyframes float {
 		0% {
