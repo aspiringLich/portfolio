@@ -16,7 +16,7 @@
 	<section class="z-10 max-lg:h-[50rem] lg:w-[32rem] flex items-center justify-center relative">
 		<Header />
 	</section>
-	<section class="flex-1 z-10 flex flex-col items-center px-2 pb-[50vh] lg:overflow-scroll" id="content">
+	<section class="flex-1 z-10 flex flex-col items-center px-2 pb-[50vh] lg:overflow-y-scroll overflow-x-visible" id="content">
 		<Notes />
 		<Art />
 	</section>
@@ -24,16 +24,20 @@
 
 <style lang="postcss">
 	:global(#item) {
-		@apply max-w-xl bg-white/70 border-white;
+		@apply bg-white/70 border-white;
 		backdrop-filter: blur(2px);
 	}
+	
+	:global(.prose-sm) {
+		@apply p-2;
+	}
 
-	:global(.prose-sm h3) {
+	:global(.prose-sm h3,h4) {
 		font-weight: bold;
 		margin-bottom: 0.5rem;
 	}
 	
 	:global(#content > *) {
-		@apply mb-4;
+		/* @apply mb-10; */
 	}
 </style>
