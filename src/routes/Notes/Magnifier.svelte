@@ -102,12 +102,12 @@
 <style lang="postcss">
 	.magnifier {
 		position: relative;
-		display: inline-block;
 		line-height: 0;
 	}
 
 	.magnifier-image {
 		cursor: none;
+		height: 100%;
 	}
 
 	.magnifying-glass {

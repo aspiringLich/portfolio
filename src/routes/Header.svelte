@@ -66,7 +66,7 @@
 		--hue: 340;
 		--d: -9s;
 		--l: 13s;
-		--r: =2deg;
+		--r: -2deg;
 	}
 	
 	span.relative :has(#langs) {

@@ -13,8 +13,10 @@
 			taken:
 		</p>
 	</div>
-	<div class="pseudo-window relative -top-2" id="item">
-		<Magnifier src={notes.img.src} alt="notes" width={notes.img.w} height={notes.img.h} />
+<div class="h-[32rem]">
+	<div class="pseudo-window relative -top-2 max-w-xl" id="item">
+		<Magnifier src={notes.sources.avif.split(" ")[0]} alt="notes" width={notes.img.w} height={notes.img.h} />
 	</div>
+</div>
 	<NoteMagnify class="absolute left-[70%] top-8" />
 </span>

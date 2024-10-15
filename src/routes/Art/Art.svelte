@@ -15,7 +15,7 @@
 			It's nothing incredibly expansive, but I enjoy making art in a variety of mediums.
 		</p>
 	</div>
-	<section class="h-[18rem]">
+	<section class="h-[23rem]">
 		<enhanced:img
 			src={sketch1}
 			class="absolute w-64 bottom-[3rem] left-4 rotate-6"
@@ -23,7 +23,7 @@
 		/>
 		<enhanced:img
 			src={sketch2}
-			class="absolute w-64 -bottom-16 right-12 -rotate-2"
+			class="absolute w-64 -bottom-12 right-12 -rotate-2"
 			alt="sketchbook page 2"
 		/>
 		<div class="absolute pseudo-window prose-sm w-96 left-0 bottom-0" id="item">
@@ -47,11 +47,11 @@
 			</p>
 		</div>
 	</section>
-	<section class="h-10rem">
-		<enhanced:img src={whiteboard2} class="absolute w-[24rem] -right-2 top-[9rem] -rotate-1" />
+	<section class="h-[27rem]">
+		<enhanced:img src={whiteboard2} class="absolute w-[24rem] -right-2 top-[9rem] -rotate-1" alt="whiteboard two" />
 		<enhanced:img
 			src={whiteboard1}
-			class="absolute w-[18rem] right-0 -top-52 rotate-3"
+			class="absolute w-[18rem] right-2 -top-52 rotate-3"
 			alt="whiteboard one"
 		/>
 		<div class="max-w-80 pseudo-window prose-sm mt-4" id="item">
