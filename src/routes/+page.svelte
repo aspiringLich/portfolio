@@ -43,6 +43,10 @@
 		font-weight: bold;
 		margin-bottom: 0.5rem;
 	}
+	
+	:global(.prose-sm a) {
+		@apply underline text-cyan-600;
+	}
 
 	:global(#post-it) {
 		@apply border-2 w-[11rem] h-[11rem] rounded-lg;

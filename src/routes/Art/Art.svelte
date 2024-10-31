@@ -28,13 +28,13 @@
 			class="absolute w-64 -bottom-12 right-12 -rotate-2"
 			alt="sketchbook page 2"
 		/>
-		<div class="absolute pseudo-window prose-sm w-96 left-0 bottom-0" id="item">
+		<!-- <div class="absolute pseudo-window prose-sm w-96 left-0 bottom-0" id="item">
 			<h4>Sketchbook</h4>
 			<p>
 				I only started sketching fairly recently, so my technique still needs improvement, but it's
 				a decent showing of my artistic abilities.
 			</p>
-		</div>
+		</div> -->
 	</section>
 	<section>
 		<img src={laser} class="h-[28rem] mt-4" alt="laser" />
