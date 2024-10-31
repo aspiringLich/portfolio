@@ -2,7 +2,7 @@
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	width="100pt"
-	height="auto"
+	height="77.814445361pt"
 	version="1.1"
 	viewBox="-79.192 751.246 33.811 26.310"
     {...$$restProps}

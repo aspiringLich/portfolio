@@ -15,9 +15,9 @@
 	</div>
 	<section class="relative h-[24rem]">
 		<!-- svelte-ignore a11y_media_has_caption -->
-		<video class="absolute -top-36 right-4 w-80 rotate-2" src={animation} autoplay loop></video>
+		<video class="absolute -top-36 right-4 w-80 rotate-2" src={animation} autoplay muted loop></video>
 		<!-- svelte-ignore a11y_media_has_caption -->
-		<video class="absolute top-44" src={easing} autoplay loop></video>
+		<video class="absolute top-44" src={easing} autoplay muted loop></video>
 		<div class="max-w-80 pseudo-window prose-sm mt-4 ml-4" id="item">
 			<h4>
 				<a href="https://github.com/aspiringLich/PaintingCanvas" target="_blank">PaintingCanvas</a>

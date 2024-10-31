@@ -1,6 +1,4 @@
 <script>
-	import Carousel from 'svelte-carousel';
-
 	import sketch1 from './sketch1.png?enhanced';
 	import sketch2 from './sketch2.jpg?enhanced'; // jpgs because i corrected the color on color.io
 	import whiteboard1 from './whiteboard1.jpg?enhanced';
