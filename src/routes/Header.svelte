@@ -11,7 +11,7 @@
 
 {#snippet post_it(url: any, classes: string, id: string)}
 	<span class="relative">
-		<div class="pseudo-window rounded-lg absolute {classes} w-[11rem]" id="post-it">
+		<div class="absolute pseudo-window {classes}" id="post-it">
 			<enhanced:img src={url} alt="post-it-{id}" {id} />
 		</div>
 	</span>
@@ -29,9 +29,6 @@
 
 <style lang="postcss">
 	#post-it {
-		@apply border-2;
-		background: linear-gradient(0deg, hsl(var(--hue) 60% 90%), hsl(var(--hue) 60% 85%));
-		border-color: hsl(var(--hue), 30%, 60%);
 		animation-name: float;
 		animation-duration: var(--l);
 		animation-timing-function: ease-in-out;

@@ -9,13 +9,15 @@
 </script>
 
 <span class="flex flex-col max-w-xl w-full">
-	<div class="pseudo-window w-80 self-end mr-4 prose-sm z-20 mt-4" id="item">
+	<div
+		class="pseudo-window self-end mr-4 prose-sm z-20 mt-4 rotate-2"
+		id="post-it"
+		style:--hue={100}
+	>
 		<h3>Art</h3>
-		<p>
-			It's nothing incredibly expansive, but I enjoy making art in a variety of mediums.
-		</p>
+		<p>It's nothing incredibly expansive, but I enjoy making art in a variety of mediums.</p>
 	</div>
-	<section class="h-[23rem]">
+	<section class="h-[18rem]">
 		<enhanced:img
 			src={sketch1}
 			class="absolute w-64 bottom-[3rem] left-4 rotate-6"
@@ -30,7 +32,7 @@
 			<h4>Sketchbook</h4>
 			<p>
 				I only started sketching fairly recently, so my technique still needs improvement, but it's
-				pretty cool
+				a decent showing of my artistic abilities.
 			</p>
 		</div>
 	</section>
@@ -42,13 +44,14 @@
 				I did the art for one of my friend's games where you solve puzzles by directing lasers
 				around.
 			</p>
-			<p>
-				They're still working on it for their game design class so unfortunately I can't link it.
-			</p>
 		</div>
 	</section>
 	<section class="h-[27rem]">
-		<enhanced:img src={whiteboard2} class="absolute w-[24rem] -right-2 top-[9rem] -rotate-1" alt="whiteboard two" />
+		<enhanced:img
+			src={whiteboard2}
+			class="absolute w-[24rem] -right-2 top-[9rem] -rotate-1"
+			alt="whiteboard two"
+		/>
 		<enhanced:img
 			src={whiteboard1}
 			class="absolute w-[18rem] right-2 -top-52 rotate-3"

@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/patrick-hand-sc": "^5.1.0",
 		"svelte-carousel": "github:vadimkorr/svelte-carousel#pull/142/head"
 	}
 }

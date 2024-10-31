@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource/patrick-hand-sc':
+    specifier: ^5.1.0
+    version: 5.1.0
   svelte-carousel:
     specifier: github:vadimkorr/svelte-carousel#pull/142/head
     version: github.com/vadimkorr/svelte-carousel/a299747c626d559ad02dde0a1463243bb07935df
@@ -584,6 +587,10 @@ packages:
     dependencies:
       levn: 0.4.1
     dev: true
+
+  /@fontsource/patrick-hand-sc@5.1.0:
+    resolution: {integrity: sha512-SDIOtgdmjAKZIwCp/fPhV5o2OtWk0JWvgYR1d8u356/6HS/dsNpSHGec5XFRk7rsSMmlszlFlBwBDtY0owKTdg==}
+    dev: false
 
   /@humanwhocodes/module-importer@1.0.1:
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
