@@ -24,7 +24,7 @@
 			</h4>
 			<p>
 				This is a tool currently being used by all AP Computer Science A and Intro to Programming
-				classes at my high school, which alllows you to draw and animate shapes with code.
+				classes at my high school, which allows you to draw and animate shapes with code.
 			</p>
 		</div>
 	</section>
