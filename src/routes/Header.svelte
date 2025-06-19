@@ -22,7 +22,7 @@
 	{@render post_it(biohazard, 'bottom-[14rem] left-[19rem]', 'biohazard')}
 	{@render post_it(rocket, 'bottom-[18rem] left-[10rem]', 'rocket')}
 	{@render post_it(dragon, 'bottom-[14rem] left-[2rem]', 'dragon')}
-	{@render post_it(langs, 'top-[-1rem] left-[3rem]', 'langs')}
+	{@render post_it(langs, 'top-[-3rem] left-[3rem]', 'langs')}
 	{@render post_it(dish, 'top-[4rem] left-[12rem]', 'dish')}
 	{@render post_it(greek, 'top-[-2rem] left-[19rem]', 'greek')}
 </div>
@@ -70,7 +70,7 @@
 		--hue: 50;
 		--d: -2s;
 		--l: 12s;
-		--r: 1deg;
+		--r: 3deg;
 	}
 	
 	span.relative :has(#rocket) {
