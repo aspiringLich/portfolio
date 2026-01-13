@@ -40,7 +40,7 @@
 			<h4>Pixel Art</h4>
 			<p>
 				I did the art for one of my friend's games where you solve puzzles by directing lasers
-				around.
+				around. It's on <a href="https://store.steampowered.com/app/3385920/Beam_Time/">Steam</a> now!
 			</p>
 		</div>
 	</section>

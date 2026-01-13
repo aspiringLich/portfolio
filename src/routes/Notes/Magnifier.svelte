@@ -106,7 +106,7 @@
 	}
 
 	.magnifier-image {
-		cursor: none;
+		cursor: crosshair;
 		height: 100%;
 	}
 

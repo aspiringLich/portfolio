@@ -22,7 +22,7 @@
 	</section>
 	<section
 		class="flex-1 z-10 flex flex-col items-center px-2 pb-[50vh] 
-		lg:overflow-y-scroll overflow-x-visible lg:pt-[max(calc(50vh-19rem),2rem)]"
+		lg:overflow-y-scroll overflow-x-visible lg:pt-[max(calc(50vh-19rem),2rem)] pt-32"
 		id="content"
 	>
 	    <Synthestesia />

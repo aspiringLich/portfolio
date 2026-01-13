@@ -1,11 +1,12 @@
 <script>
 	import Magnifier from './Magnifier.svelte';
 
-	import notes from './notes.jpeg?enhanced';
+	import bio_notes from './bio-notes.jpeg?enhanced';
+	import materials_notes from './materials-notes.avif?enhanced';
 	import NoteMagnify from './NoteMagnify.svelte';
 </script>
 
-<span class="relative lg:mt-[max(calc(50vh-19rem),2rem)]">
+<span class="relative mt-8 w-[36rem] px-4">
 	<div
 		class="pseudo-window w-80 relative left-4 prose-sm p-2 -rotate-3 z-50"
 		id="post-it"
@@ -17,13 +18,21 @@
 			taken:
 		</p>
 	</div>
-	<div class="h-[32rem]">
-		<div class="pseudo-window relative -top-2 max-w-xl" id="item">
+	<div class="w-full flex flex-col">
+		<div class="pseudo-window lg:max-w-lg max-w-md w-max self-start" id="item">
 			<Magnifier
-				src={notes.sources.avif.split(' ')[0]}
+				src={bio_notes.sources.avif.split(' ')[0]}
 				alt="notes"
-				width={notes.img.w}
-				height={notes.img.h}
+				width={bio_notes.img.w}
+				height={bio_notes.img.h}
+			/>
+		</div>
+		<div class="pseudo-window lg:max-w-lg max-w-md w-max self-end -mt-2" id="item">
+			<Magnifier
+				src={materials_notes.sources.avif.split(' ')[0]}
+				alt="notes"
+				width={materials_notes.img.w}
+				height={materials_notes.img.h}
 			/>
 		</div>
 	</div>

@@ -15,7 +15,8 @@
 	</div>
 	<section class="relative h-[24rem]">
 		<!-- svelte-ignore a11y_media_has_caption -->
-		<video class="absolute -top-36 right-4 w-80 rotate-2" src={animation} autoplay muted loop></video>
+		<video class="absolute -top-36 right-4 w-80 rotate-2" src={animation} autoplay muted loop
+		></video>
 		<!-- svelte-ignore a11y_media_has_caption -->
 		<video class="absolute top-44" src={easing} autoplay muted loop></video>
 		<div class="max-w-80 pseudo-window prose-sm mt-4 ml-4" id="item">
@@ -37,20 +38,17 @@
 	<section class="relative h-[30rem]">
 		<enhanced:img src={ui} class="absolute top-[9.5rem] left-0 w-[24rem] -rotate-2" alt="ui" />
 		<enhanced:img src={pr} class="absolute top-[24rem]" alt="marble" />
-		
+
 		<div class="max-w-60 pseudo-window prose-sm absolute right-0" id="item">
 			<h4>Open Source</h4>
 			<p>
 				I've made contributions to a variety of open source projects, but my most prolific
 				contributions have been to
 				<a href="https://spacestation14.com/" target="_blank">Space Station 14</a>, an open source
-				video game.
-			</p>
-			<p>
-				My biggest current standing PR&mdash; currently undergoing a second round of review&mdash;
-				is a major refactor to the user interface backend specifically regarding the style sheet
-				system. You can find the PR
-				<a href="https://github.com/space-wizards/space-station-14/pull/29903" target="_blank">here</a>.
+				video game. Most noteably,
+				<a href="https://github.com/space-wizards/space-station-14/pull/29903" target="_blank">
+					completely rewriting the styling system for the game's user interface
+				</a>, a very invasive refactor that took over 3000 LoC, and 100 commits.
 			</p>
 		</div>
 	</section>
