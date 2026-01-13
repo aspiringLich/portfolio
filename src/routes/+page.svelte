@@ -8,6 +8,7 @@
 	import Projects from './Projects/Projects.svelte';
 	
 	import '@fontsource/patrick-hand-sc';
+	import Synthestesia from './Synthesthesia/Synthestesia.svelte';
 </script>
 
 <svelte:head>
@@ -20,9 +21,11 @@
 		<Header />
 	</section>
 	<section
-		class="flex-1 z-10 flex flex-col items-center px-2 pb-[50vh] lg:overflow-y-scroll overflow-x-visible"
+		class="flex-1 z-10 flex flex-col items-center px-2 pb-[50vh] 
+		lg:overflow-y-scroll overflow-x-visible lg:pt-[max(calc(50vh-19rem),2rem)]"
 		id="content"
 	>
+	    <Synthestesia />
 		<Notes />
 		<Art />
 		<Projects />
