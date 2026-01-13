@@ -14,10 +14,9 @@
 			themselves.
 		</p>
 	</div>
-	<div class="pt-32">
+	<div class="mt-32 pseudo-window">
 		<iframe
-			width="560"
-			height="315"
+		    class="w-full aspect-video"
 			src="https://www.youtube.com/embed/KmtkdJ5LhUE?si=iYkQuSzp1vPEyd9k"
 			title="YouTube video player"
 			frameborder="0"

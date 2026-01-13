@@ -1,6 +1,7 @@
 <script>
+	import drawing1 from './drawing1.png?enhanced';
 	import sketch1 from './sketch1.png?enhanced';
-	import sketch2 from './sketch2.jpg?enhanced'; // jpgs because i corrected the color on color.io
+	// import sketch2 from './sketch2.jpg?enhanced'; // jpgs because i corrected the color on color.io
 	import whiteboard1 from './whiteboard1.jpg?enhanced';
 	import whiteboard2 from './whiteboard2.jpg?enhanced';
 	import laser from './laser2.gif';
@@ -17,14 +18,14 @@
 	</div>
 	<section class="h-[18rem]">
 		<enhanced:img
-			src={sketch1}
-			class="absolute w-64 bottom-[3rem] left-4 rotate-6"
-			alt="sketchbook page 1"
+			src={drawing1}
+			class="absolute w-64 bottom-[5rem]"
+			alt="Digital drawing"
 		/>
 		<enhanced:img
-			src={sketch2}
-			class="absolute w-64 -bottom-12 right-12 -rotate-2"
-			alt="sketchbook page 2"
+			src={sketch1}
+			class="absolute w-64 -bottom-12 right-16 -rotate-2"
+			alt="Sketchbook drawing"
 		/>
 		<!-- <div class="absolute pseudo-window prose-sm w-96 left-0 bottom-0" id="item">
 			<h4>Sketchbook</h4>
@@ -35,12 +36,12 @@
 		</div> -->
 	</section>
 	<section>
-		<img src={laser} class="h-[28rem] mt-4" alt="laser" />
+		<img src={laser} class="h-[28rem] relative -top-10" alt="laser" />
 		<div class="pseudo-window absolute right-0 top-20 w-96 prose-sm" id="item">
 			<h4>Pixel Art</h4>
 			<p>
 				I did the art for one of my friend's games where you solve puzzles by directing lasers
-				around. It's on <a href="https://store.steampowered.com/app/3385920/Beam_Time/">Steam</a> now!
+				around. Get <a href="https://store.steampowered.com/app/3385920/Beam_Time/">Beam Time</a> on Steam!
 			</p>
 		</div>
 	</section>
@@ -55,7 +56,7 @@
 			class="absolute w-[18rem] right-2 -top-52 rotate-3"
 			alt="whiteboard one"
 		/>
-		<div class="max-w-80 pseudo-window prose-sm mt-4" id="item">
+		<div class="max-w-80 pseudo-window prose-sm" id="item">
 			<h4>Whiteboards</h4>
 			<p>
 				I've always liked drawing on public whiteboards. I think I just like leaving my mark on the

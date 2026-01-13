@@ -6,9 +6,9 @@
 	import NoteMagnify from './NoteMagnify.svelte';
 </script>
 
-<span class="relative mt-8 w-[36rem] px-4">
+<span class="relative">
 	<div
-		class="pseudo-window w-80 relative left-4 prose-sm p-2 -rotate-3 z-50"
+		class="pseudo-window w-80 relative left-4 top-2 prose-sm p-2 -rotate-3 z-50"
 		id="post-it"
 		style:--hue={40}
 	>
