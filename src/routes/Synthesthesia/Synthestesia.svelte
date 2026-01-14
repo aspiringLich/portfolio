@@ -9,7 +9,7 @@
 		id="post-it"
 		style:--hue={20}
 	>
-		<h3>Synthesthesia</h3>
+		<h3><a href="https://github.com/aspiringLich/reactive-led-matrix">Synthesthesia</a></h3>
 		<p>
 			The aim of this project was to create a music visualization that captured the subjective
 			experience of music. The technique used was

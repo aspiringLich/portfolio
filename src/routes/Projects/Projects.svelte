@@ -30,14 +30,14 @@
 		</div>
 	</section>
 
-	<section class="relative h-[29rem] mt-12">
-		<enhanced:img src={marble} class="absolute top-2 right-0 w-96 rotate-3" alt="marble" />
-		<enhanced:img src={chess} class="absolute top-40 left-0 w-72 -rotate-1" alt="chess" />
+	<section class="relative h-[24rem] mt-8">
+		<enhanced:img src={marble} class="absolute top-2 right-0 w-96" alt="marble" />
+		<enhanced:img src={chess} class="absolute top-40 left-0 w-72" alt="chess" />
 	</section>
 
 	<section class="relative h-[30rem]">
-		<enhanced:img src={ui} class="absolute top-[9.5rem] left-0 w-[24rem] -rotate-2" alt="ui" />
-		<enhanced:img src={pr} class="absolute top-[24rem]" alt="marble" />
+		<enhanced:img src={ui} class="absolute top-[7.5rem] left-0 w-[22rem] -rotate-2" alt="ui" />
+		<enhanced:img src={pr} class="absolute top-[19.5rem]" alt="pr" />
 
 		<div class="max-w-60 pseudo-window prose-sm absolute right-0" id="item">
 			<h4>Open Source</h4>
@@ -48,7 +48,7 @@
 				video game. Most noteably,
 				<a href="https://github.com/space-wizards/space-station-14/pull/29903" target="_blank">
 					completely rewriting the styling system for the game's user interface
-				</a>, a very invasive refactor that took over 3000 LoC, and 100 commits.
+				</a>: a very invasive refactor that took over 3000 LoC and 100 commits.
 			</p>
 		</div>
 	</section>
