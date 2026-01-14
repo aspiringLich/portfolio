@@ -11,8 +11,8 @@
 	>
 		<h3><a href="https://github.com/aspiringLich/reactive-led-matrix">Synthesthesia</a></h3>
 		<p>
-			The aim of this project was to create a music visualization that captured the subjective
-			experience of music. The technique used was
+			The aim of this project was to create a visualization that captured the subjective
+			experience of music. The primary technique used was
 			<a href="https://archives.ismir.net/ismir2014/paper/000127.pdf" target="_blank">
 				Harmonic Percussive Separation
 			</a>, modified to run in real time. This took like, 5 months, and I think the results speak for

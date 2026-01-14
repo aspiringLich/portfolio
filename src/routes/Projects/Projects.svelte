@@ -24,8 +24,9 @@
 				<a href="https://github.com/aspiringLich/PaintingCanvas" target="_blank">PaintingCanvas</a>
 			</h4>
 			<p>
-				This is a tool currently being used by all AP Computer Science A and Intro to Programming
-				classes at my high school, which allows you to draw and animate shapes with code.
+				All AP Computer Science and Intro to Programming classes at my high school use this Java
+				library I wrote. It allows you to draw and animate shapes with code, and differentiates
+				itself by being as simple as possible for beginners.
 			</p>
 		</div>
 	</section>
@@ -42,12 +43,12 @@
 		<div class="max-w-60 pseudo-window prose-sm absolute right-0" id="item">
 			<h4>Open Source</h4>
 			<p>
-				I've made contributions to a variety of open source projects, but my most prolific
-				contributions have been to
+				I've made contributions to a variety of open source projects. My most prolific contributions
+				have been to
 				<a href="https://spacestation14.com/" target="_blank">Space Station 14</a>, an open source
-				video game. Most noteably,
+				video game. I
 				<a href="https://github.com/space-wizards/space-station-14/pull/29903" target="_blank">
-					completely rewriting the styling system for the game's user interface
+					completely rewrote the styling system for the UI
 				</a>: a very invasive refactor that took over 3000 LoC and 100 commits.
 			</p>
 		</div>
